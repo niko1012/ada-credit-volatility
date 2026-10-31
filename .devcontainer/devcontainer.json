@@ -1,0 +1,16 @@
+{
+  "name": "ADA — crédit et volatilité",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": "python -m pip install -r requirements.txt && python scripts/download_data.py",
+  "hostRequirements": {
+    "cpus": 2
+  }
+}

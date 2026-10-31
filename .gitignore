@@ -1,0 +1,15 @@
+# Données de fournisseurs et fichiers produits localement
+data/raw/
+data/processed/
+reports/
+*.html
+
+# Python et notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+
+/credit-repo-files.json
