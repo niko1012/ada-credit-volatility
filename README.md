@@ -13,11 +13,13 @@ n'a pas encore reçu son approbation.
 
 ## Démarrer dans GitHub Codespaces
 
-1. Cliquer sur **Code → Codespaces → Create codespace on main**.
+1. Depuis [Codespaces](https://github.com/codespaces), rouvrir l’environnement de ce dépt s’il existe déjà. Pour une première création : **Code → Codespaces → Create codespace on main**.
 2. Attendre la fin de l'installation automatique des bibliothèques et du téléchargement.
 3. Ouvrir `notebooks/01_exploration.ipynb`.
 4. Si demandé, choisir le noyau **Python 3** / l'environnement Python recommandé.
 5. Exécuter les cellules dans l'ordre avec **Shift + Entrée**, ou **Run All**.
+
+Pour une interface centrée sur les notebooks, ou si l’éditeur reste blanc dans Safari : depuis Codespaces, ouvrir le menu **…** de l’environnement, puis **Open in JupyterLab Preview**. C’est le mme Codespace et les mmes fichiers.
 
 Si l'installation automatique n'a pas eu lieu, exécuter dans le terminal :
 
